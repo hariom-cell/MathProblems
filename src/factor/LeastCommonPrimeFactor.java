@@ -1,6 +1,8 @@
+package factor;
+
 import java.util.List;
 
-public class LeastCommonFactor {
+public class LeastCommonPrimeFactor {
 
 
     public static boolean isPrimeNumber(long number) {
@@ -23,9 +25,9 @@ public class LeastCommonFactor {
                 Recursive(fact, ++n, list);
             }
         } else {
-            long result = fact / n;
-            list.add(n);
-            Recursive(result, n, list);
+                long result = fact / n;
+                list.add(n);
+                Recursive(result, n, list);
         }
     }
 
