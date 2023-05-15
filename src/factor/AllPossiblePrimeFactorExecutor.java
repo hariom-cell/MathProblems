@@ -6,7 +6,7 @@ import java.util.List;
 
 public class AllPossiblePrimeFactorExecutor {
     public static void main(String args[]) {
-        long fact = 120;
+        long fact = 11;
         long n = 2;
         List<Long> list = new ArrayList<>();
         LeastCommonPrimeFactor.Recursive(fact, n, list);

@@ -4,7 +4,7 @@ import java.util.*;
 
 public class AllPossibleFactorExecutor {
     public static void main(String args[]) {
-        long fact = 1200;
+        long fact = 36;
         long n = 2;
         List<Long> list = new ArrayList<>();
         LeastCommonFactor.Recursive(fact, n, list);
